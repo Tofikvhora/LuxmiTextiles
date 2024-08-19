@@ -218,3 +218,69 @@ body {
         transform: translateY(0);
     }
 }
+
+@media (max-width: 768px) {
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .products, .gallery, .contact {
+        padding: 40px 15px;
+    }
+
+    .products h2, .gallery h2, .contact h2 {
+        font-size: 2rem;
+    }
+
+    .product-list {
+        gap: 15px;
+    }
+
+    .product-item {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+
+    .products h2, .gallery h2, .contact h2 {
+        font-size: 1.8rem;
+    }
+
+    .product-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .product-item p {
+        font-size: 0.9rem;
+    }
+
+    .contact form {
+        gap: 15px;
+    }
+
+    .contact input, .contact textarea {
+        padding: 12px;
+    }
+
+    .contact button {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+}
